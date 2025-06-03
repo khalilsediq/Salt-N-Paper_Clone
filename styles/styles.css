@@ -8,7 +8,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;;
     font-style: normal;
 }
 
@@ -22,7 +22,81 @@ body{
     background-color: var(--black);
     color: var(--white);
 }
-/* header section CSS Started */
+/* navbar section CSS Started */
+
+.logo-img{
+    width: 165px;
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-items{
+    /* column-gap: 17px; */
+    display: flex;
+   flex-wrap: wrap;
+    font-size: 1.6rem;
+    gap: 10px  ;
+}
+
+.nav-items > a{
+    /* list-style: none; */
+    color:var(--white);
+    text-decoration: none;
+}
+/* .nav-items{
+    display: flex;
+    align-items: flex-end;
+} */
+.nav-list{
+   padding: 17px 36px 0px 0px;
+   
+}
+.get-franchise-btn{
+    
+    font-size: 1.5rem;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.get-franchise-btn:hover{
+    transform: scale(1.1);
+}
+.order-online-btn{
+    background-color: var(--red);
+    font-size: 1.5rem;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 20px;
+    /* margin-left: 10px; */
+    color: var(--white);
+    align-self: auto;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+.order-online-btn:hover{
+ transform: scale(1.1);
+    
+}
+.icon-btn{
+    color: var(--red);
+    background-color: var(--white);
+    margin: 0 0 0 7px;
+    padding: 6px 7px;
+    border-radius: 20px;
+}
+/* navbar section CSS ended */
 
 
-/* header section CSS ended */
+/* crousel img css started */
+.crousel-img{
+    width: 100%;
+}
+/* crousel img css ended */
