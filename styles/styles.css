@@ -23,16 +23,6 @@ body{
     color: var(--white);
 }
 /* header section CSS Started */
-.container{
-    display: flex;
-    justify-content: space-around;
-}
-.nav-list-items{
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-}
-.logo-img{
-    width: 165px;
-}
+
+
 /* header section CSS ended */
