@@ -241,6 +241,11 @@ body {
 .franchise-img{
     width: 636px;
     height: 346.91;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+.franchise-img:hover{
+    transform: scale(1.1);
 }
 .btn-direction{
     text-decoration: none;
@@ -251,7 +256,7 @@ body {
     margin: 40px 0px 0px;
     padding: 19px 25px 15px ;
     border-radius: 25px;
-    transition: padding 0.15s;
+    transition: padding 0.25s;
 }
 .btn-direction:hover{
     padding: 20px 50px 20px;
