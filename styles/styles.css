@@ -23,7 +23,10 @@ body{
     color: var(--white);
 }
 /* navbar section CSS Started */
-
+@font-face {
+    font-family: faturak;
+    src: url();
+}
 .logo-img{
     width: 165px;
 }
