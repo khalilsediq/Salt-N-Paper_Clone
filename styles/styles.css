@@ -22,11 +22,13 @@ body{
     background-color: var(--black);
     color: var(--white);
 }
-/* navbar section CSS Started */
+
 @font-face {
-    font-family: faturak;
-    src: url();
+    font-family: futurak;
+    src: url('./fonts/futurak.ttf');
 }
+
+/* navbar section CSS Started */
 .logo-img{
     width: 165px;
 }
