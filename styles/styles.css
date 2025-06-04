@@ -105,3 +105,18 @@ body{
     width: 100%;
 }
 /* crousel img css ended */
+
+/* our brand css started */
+
+.our-brand-heading{
+    text-align: center;
+    margin-top: 60px;
+    font-size:  4rem;
+}
+.salt-peper-span{
+    font-size: 5.2rem;
+    font-family: futurak;
+}
+
+
+/* our brand css ended */
