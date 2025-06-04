@@ -23,7 +23,7 @@ body{
     color: var(--white);
 }
 
-@font-face {
+@font-face{
     font-family: futurak;
     src: url('./fonts/futurak.ttf');
 }
