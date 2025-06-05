@@ -5,7 +5,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen {
+@media only screen and (max-width: 768px) {
+    .nav-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items {
+        justify-content: center;
+    }
+
+    .franchise-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-child {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-brand-parent {
+        flex-direction: column;
+        align-items: center;
+    }
     
 }
 
@@ -185,6 +208,12 @@ body {
 
 /* <!-- franchise section started --> */
 .franchise-sec-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+   column-gap: 100px;
+    flex-wrap: wrap;
     background-color: var(--gray);
     padding: 70px;
     margin: 70px 0px 0px 0px;
@@ -202,6 +231,10 @@ body {
 .watermark {
     position: absolute;
     right: 30px;
+    /* position: relative;
+    left: 10px;
+    top: 600px; */
+
      z-index: 0;
 }
 
