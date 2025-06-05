@@ -30,7 +30,10 @@
         align-items: center;
     }
     
-    
+    .franchise-sec-container img{
+        width: 200px;
+        
+    }
     .second-parent img{
         
         align-items: center;
