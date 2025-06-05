@@ -401,25 +401,27 @@ body {
 
 #second-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
     width: 100%;
     max-width: 2400px;
     margin: auto;
     margin-top: 100px;
-    border-top-left-radius: 300px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 300px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 600px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 600px;
+    border-bottom-left-radius: 30px;
     
 }
- /* <!-- 1st second section childrens have been started --> */
+
 
 .franch-img{
-   width: 300px;
-   height: 200px;
-    border-radius: 20px;
-    object-fit: cover;
+   width: 416px;
+   height: 250px;
+    border-radius: 10px;
+    
 }
 .arrow-one {
   padding: 8px 8px 6px;
@@ -460,6 +462,21 @@ body {
 }
  /* <!-- 1st second section childrens have been ended --> */
 
-
-
 /* franchises_second_section ednded */
+
+
+
+/* villag franchise seciton started */
+.village-franchise{
+    background-color: var(--gray);
+    
+}
+
+/* villag franchise seciton ended */ 
+
+
+
+
+/* express franchise seciton */
+
+/* express franchise seciton */
