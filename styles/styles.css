@@ -18,7 +18,7 @@ html {
     --black: #000000;
     --red: #ed1c24;
     --light-grey: #ffffffb3;
-    --gray: #212529;
+    --gray: #0f0f0f;;
 }
 
 body {
@@ -199,7 +199,7 @@ body {
 .watermark {
     position: absolute;
     right: 30px;
-    N z-index: 0;
+     z-index: 0;
 }
 
 .franchise-box {
@@ -289,9 +289,13 @@ body {
 /* <!-- franchise section ended --> */
 
 
+
+
+
+
 /* franchises_second_section started */
 
-.franchises_second_section {
+/* .franchises_second_section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -302,7 +306,7 @@ body {
     overflow: hidden;
     margin: 60px 0px 0px;
     height: 1500px;
-}
+} */
 
 /* .franchises_second_section img{
     width: 100%;
@@ -310,14 +314,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } */
-.second-sec-watermark img {
+/* .second-sec-watermark img {
     position: absolute;
     right: 70px;
     top: 40px;
     z-index: -1;
-}
+} */
 
-.franchises_second_section {
+/* .franchises_second_section {
     width: 100%;
     max-width: 2000px;
     margin: 0 auto;
@@ -327,12 +331,56 @@ body {
     background-size: 2500px 1500px;
 
     background-position: center;
-}
+} */
 
 .franchise-heading {
     font-family: enter;
     font-size: 5.3rem;
 
 }
+.second-sec-watermark-logo{
+    position: absolute;
+    right: 20px;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
 
+#second-container{
+    height: 100vh;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.second-parent{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: center;
+   gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.sec-franch-img{
+    width: 416px;
+    height: 250px;
+}
+
+
+
+/* .arrow-one {
+  padding: 8px 8px 6px;
+}
+.arrow-one {
+  background-color: #fff;
+  color: #dc3545;
+  width: 27px;
+  height: 27px;
+  padding: 5px 8px;
+  border-radius: 30px;
+  margin-left: 10px;
+} */
 /* franchises_second_section ednded */
