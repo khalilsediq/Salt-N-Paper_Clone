@@ -565,9 +565,21 @@ border-radius: 30px;
  background-color: var(--white);
  color: var(--green) !important;
 }
+
 /* villag franchise seciton ended */
 
+/* location section started */
 
+
+.location-card-box{
+    border: 1px solid var(--red);
+}
+.location-sec-heading{
+    text-align: center;
+    font-family: enter;
+
+}
+/* location section ended */
 
 
 /* express franchise seciton */
