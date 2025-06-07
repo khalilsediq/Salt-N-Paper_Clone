@@ -5,7 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
 @media only screen and (max-width: 402px) {
+    .village-img-section {
+        width: 200px;
+        height: 200px;
+    }
+
     .nav-parent {
         flex-direction: column;
         align-items: center;
@@ -29,22 +36,24 @@
         flex-direction: column;
         align-items: center;
     }
-    
-    .franchise-sec-container img{
+
+    .franchise-sec-container img {
         width: 200px;
-        
+
     }
-    .second-parent img{
-        
+
+    .second-parent img {
+
         align-items: center;
         width: 150px;
         height: 100px;
     }
-    .sec-franch-img{
+
+    .sec-franch-img {
         width: 100px;
         height: 100px;
     }
-}
+} */
 
 html {
     font-size: 62.5%;
@@ -58,7 +67,8 @@ html {
     --black: #000000;
     --red: #ed1c24;
     --light-grey: #ffffffb3;
-    --gray: #0f0f0f;;
+    --gray: #0f0f0f;
+    --green: #28a745;
 }
 
 body {
@@ -225,17 +235,19 @@ body {
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
-        
-   column-gap: 100px;
+
+    column-gap: 100px;
     flex-wrap: wrap;
     background-color: var(--gray);
     padding: 70px;
     margin: 70px 0px 0px 0px;
     /* height: 1474.72px; */
 }
-.franchise-sec-container p{
+
+.franchise-sec-container p {
     text-align: center;
 }
+
 .franchise-heading {
     text-align: center;
     /* margin-top: 100px; */
@@ -251,7 +263,7 @@ body {
     left: 10px;
     top: 600px; */
 
-     z-index: 0;
+    z-index: 0;
 }
 
 .franchise-box {
@@ -390,7 +402,8 @@ body {
     font-size: 5.3rem;
 
 }
-.second-sec-watermark-logo{
+
+.second-sec-watermark-logo {
     position: absolute;
     right: 90px;
     z-index: 0;
@@ -399,7 +412,7 @@ body {
     overflow: hidden;
 }
 
-#second-container{
+#second-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -413,84 +426,146 @@ body {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 600px;
     border-bottom-left-radius: 30px;
-    
+
 }
 
 
-.franch-img{
-   width: 416px;
-   height: 250px;
+.franch-img {
+    width: 416px;
+    height: 250px;
     border-radius: 10px;
-    
+
 }
+
 .arrow-one {
-  padding: 8px 8px 6px;
+    padding: 8px 8px 6px;
 }
+
 .arrow-one {
-  background-color: #fff;
-  color: #dc3545;
-  width: 27px;
-  height: 27px;
-  padding: 5px 8px;
-  border-radius: 30px;
-  margin-left: 10px;
+    background-color: #fff;
+    color: #dc3545;
+    width: 27px;
+    height: 27px;
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-left: 10px;
 }
-.brand-child{
+
+.brand-child {
     font-size: 1.6rem;
     color: var(--white);
     font-family: inter;
-    
+
 }
-.franchise-logo-text{
+
+.franchise-logo-text {
     font-size: 2.4rem;
     color: var(--white);
     font-family: apercu;
-    
+
 }
+
 .franchise-logo-span {
     font-family: futurak;
     font-size: 2.4rem;
     color: var(--white);
 }
-.small-text{
-      color: var(--red);
+
+.small-text {
+    color: var(--red);
     font-size: 1.6rem;
     text-transform: uppercase;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
     letter-spacing: 8px;
     line-height: 0;
 }
- /* <!-- 1st second section childrens have been ended --> */
+
+/* <!-- 1st second section childrens have been ended --> */
 
 /* franchises_second_section ednded */
 
 
 
 /* villag franchise seciton started */
-.village-franchise{
+.village-franchise {
     margin-top: 30px;
     background-color: var(--gray);
     padding: 48px 0px;
+    row-gap: 35px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-.village-franchise-heading{
+
+.village-franchise-heading {
     text-align: center;
     font-size: 4rem;
     font-weight: 200;
     color: var(--white);
     margin-top: 50px;
-   
+
 }
-.second-span{
+
+.second-span {
     letter-spacing: 8px;
     font-weight: 300;
     font-family: enter;
 }
 
-.village-img{
+.village-img {
     width: 1260.5px;
     height: 722.08px;
 }
-/* villag franchise seciton ended */ 
+
+.content-sec {
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    row-gap: 15px;
+    font-size: 1.6rem;
+    font-family: apercu;
+
+}
+
+.contact {
+    color: var(--light-grey);
+}
+
+.para-1 {
+    font-size: 3.2rem;
+}
+
+.get-direction {
+    background-color: var(--green);
+    text-decoration: none;
+    color: var(--white);
+    border: 1px solid var(--green);
+padding: 15px  30px;
+border-radius: 30px;
+ margin: 20px 0px 0px;
+ cursor: pointer;
+ transition-duration: 0.25s;
+ /* transition: transform 0.25s; */
+}
+.get-direction:hover{
+    background-color: inherit;
+    transform: scale(1.1);
+}
+.icon-btn-custom{
+ background-color: var(--white);
+ color: var(--green) !important;
+}
+/* villag franchise seciton ended */
 
 
 
