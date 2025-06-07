@@ -664,11 +664,24 @@ letter-spacing: 1px;
 
 
 /* social feed section started */
+.social-feed{
+    margin: 90px 0px 0px;
+}
+.social-feed-heading {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 3.2rem;
+    /* font-weight: 200; */
+    color: var(--white);
+    font-family: butler;
+    /* margin: 60px 0 9px 60px; */
+    margin-bottom: 50px;
 
-
+}
 .social-feed-container{
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 .social-feed-img{
     width: 489px;
@@ -676,6 +689,3 @@ justify-content: space-between;
 }
 /* social feed section ended */
 
-/* express franchise seciton */
-
-/* express franchise seciton */
