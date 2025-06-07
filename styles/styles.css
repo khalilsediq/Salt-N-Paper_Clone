@@ -572,7 +572,7 @@ border-radius: 30px;
 
 
 .location-card-box{
-    border: 1px solid var(--red);
+    /* border: 1px solid var(--red); */
     width: 1500px;
     margin: 0 auto;
     margin-top: 60px;
@@ -662,6 +662,19 @@ letter-spacing: 1px;
 }
 /* location section ended */
 
+
+/* social feed section started */
+
+
+.social-feed-container{
+display: flex;
+justify-content: space-between;
+}
+.social-feed-img{
+    width: 489px;
+    height: 489px;
+}
+/* social feed section ended */
 
 /* express franchise seciton */
 
