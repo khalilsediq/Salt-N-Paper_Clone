@@ -467,11 +467,19 @@ body {
 
 
 /* villag franchise seciton started */
-.village-franchise{
-    background-color: var(--gray);
-    
+.village-franchise-heading{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+    color: var(--white);
+    margin-top: 50px;
+   
 }
-
+.second-span{
+    letter-spacing: 8px;
+    font-weight: 300;
+    font-family: enter;
+}
 /* villag franchise seciton ended */ 
 
 
