@@ -607,6 +607,14 @@ column-gap: 20px;
      width: 380px;
     height: 230px ;
     border-radius: 10px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .location-img{
     /* width: 70px; */
@@ -643,6 +651,7 @@ letter-spacing: 2px;
     font-size: 2.8rem;
     font-family: futurak;
     font-weight: none;
+    margin: 0px 8px 0px 0px;
 }
 .sec-h4{
     font-size: 2.1rem;
