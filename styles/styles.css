@@ -550,20 +550,22 @@ body {
     text-decoration: none;
     color: var(--white);
     border: 1px solid var(--green);
-padding: 15px  30px;
-border-radius: 30px;
- margin: 20px 0px 0px;
- cursor: pointer;
- transition-duration: 0.25s;
- /* transition: transform 0.25s; */
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 20px 0px 0px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+    /* transition: transform 0.25s; */
 }
-.get-direction:hover{
+
+.get-direction:hover {
     background-color: inherit;
     transform: scale(1.1);
 }
-.icon-btn-custom{
- background-color: var(--white);
- color: var(--green) !important;
+
+.icon-btn-custom {
+    background-color: var(--white);
+    color: var(--green) !important;
 }
 
 /* villag franchise seciton ended */
@@ -571,41 +573,43 @@ border-radius: 30px;
 /* location section started */
 
 
-.location-card-box{
+.location-card-box {
     /* border: 1px solid var(--red); */
     width: 1500px;
     margin: 0 auto;
     margin-top: 60px;
 }
-.location-sec-heading{
+
+.location-sec-heading {
     text-align: center;
     font-family: enter;
- font-size: 4.8rem;
+    font-size: 4.8rem;
 }
 
-.opening-soon-span{
+.opening-soon-span {
     font-size: 3rem;
 }
-.card-box-parent{
-display: flex;
-justify-content: center;
-align-content: center;
-flex-wrap: wrap;
-align-self: auto;
-/* column-gap: 100px; */
-margin: 30px 0px 0px;
-row-gap: 45px;
 
-column-gap: 20px;
+.card-box-parent {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-self: auto;
+    /* column-gap: 100px; */
+    margin: 30px 0px 0px;
+    row-gap: 45px;
+
+    column-gap: 20px;
 }
 
-.card-child{
+.card-child {
     background-color: var(--white);
     padding: 25px 24px;
     color: var(--black);
     /* border: 1px solid var(--red); */
-     width: 380px;
-    height: 270px ;
+    width: 380px;
+    height: 270px;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -617,16 +621,19 @@ column-gap: 20px;
     /* transition: transform 0.25s; */
     transition-duration: 0.25s;
 }
-.card-child:hover{
+
+.card-child:hover {
     transform: scale(1.1);
     background-color: var(--gray);
     color: inherit;
 }
-.location-img{
+
+.location-img {
     /* width: 70px; */
     margin-bottom: 25px;
 }
-#card-child0-1{
+
+#card-child0-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -634,7 +641,7 @@ column-gap: 20px;
     flex-wrap: wrap;
 }
 
-.card-child small{
+.card-child small {
     color: var(--red);
     text-transform: uppercase;
     text-decoration: none;
@@ -644,35 +651,40 @@ column-gap: 20px;
     font-weight: 250;
     line-height: 1;
     text-align: center;
-   
+
 }
-.logo-text-of-location{
+
+.logo-text-of-location {
     font-size: 2.1rem;
     font-family: apercu;
-font-weight: 100;
-letter-spacing: 2px;
-/* line-height: 2; */
+    font-weight: 100;
+    letter-spacing: 2px;
+    /* line-height: 2; */
 }
-.logo-location-span{
+
+.logo-location-span {
     font-size: 2.8rem;
     font-family: futurak;
     font-weight: none;
     margin: 0px 8px 0px 0px;
 }
-.sec-h4{
+
+.sec-h4 {
     font-size: 2.1rem;
     font-family: apercu;
-font-weight: 100;
-/* line-height: 2; */
-letter-spacing: 1px;
+    font-weight: 100;
+    /* line-height: 2; */
+    letter-spacing: 1px;
 }
+
 /* location section ended */
 
 
 /* social feed section started */
-.social-feed{
+.social-feed {
     margin: 90px 0px 0px;
 }
+
 .social-feed-heading {
     width: 200px;
     margin: 0 auto;
@@ -684,41 +696,74 @@ letter-spacing: 1px;
     margin-bottom: 50px;
 
 }
-.social-feed-container{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+
+.social-feed-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.social-feed-img{
+
+.social-feed-img {
     width: 489px;
     height: 489px;
     border-radius: 10px;
     transition-duration: 0.25s;
 }
-.child-img-social{
+
+.child-img-social {
     cursor: pointer;
 }
-.social-feed-img:hover{
+
+.social-feed-img:hover {
     transform: scale(0.9);
     border-radius: 40px;
 }
+
 /* social feed section ended */
 
 
 /* fotter section started */
-.fotter-section{
+.fotter-section {
     background-color: var(--gray);
     margin: 90px 0px 0px;
     padding: 70px 15px 0px;
 }
+
+
+
 .fotter-watermark{
-   
+    position: relative;
+    left: 30px;
+    z-index: -0;
 }
-.fotter-watermark img{
-  position: relative;
-  top: 210px;
-  left: 30px;
-  z-index: ;
-  
+.fotter-data-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-img{
+    padding: 0px 0px 24px;
+    font-size: 1.6rem;
+}
+.paragraph-fotter{
+    color: var(--light-grey);
+    font-size: 1.6rem;
+    font-family: apercu;
+    padding: 0px 0px 24px;
+}
+.unorder-list-items{
+       display: flex;
+       font-size: 1.5rem;
+    list-style: none;
+}
+.unorder-list-items a{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--light-grey);
+}
+.terms-and-condition{
+    margin: 0px 10px 0px 0px;
+   
 }
 /* fotter section ended */
