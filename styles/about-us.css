@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+@media only screen and (max-width: 402px) {
+    .village-img-section {
+        width: 200px;
+        height: 200px;
+    }
+
+    .nav-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items {
+        justify-content: center;
+    }
+
+    .franchise-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-child {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-brand-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .franchise-sec-container img {
+        width: 200px;
+
+    }
+
+    .second-parent img {
+
+        align-items: center;
+        width: 150px;
+        height: 100px;
+    }
+
+    .sec-franch-img {
+        width: 100px;
+        height: 100px;
+    }
+} */
+
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    ;
+    font-style: normal;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --red: #ed1c24;
+    --light-grey: #ffffffb3;
+    --gray: #0f0f0f;
+    --green: #28a745;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+@font-face {
+    font-family: futurak;
+    src: url('./fonts/futurak.ttf');
+}
+
+/* navbar section CSS Started */
+.logo-img {
+    width: 165px;
+}
+
+.nav-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    /* column-gap: 17px; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    gap: 10px;
+}
+
+.nav-items>a {
+    /* list-style: none; */
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* .nav-items{
+    display: flex;
+    align-items: flex-end;
+} */
+.nav-list {
+    padding: 17px 36px 0px 0px;
+
+}
+
+.get-franchise-btn {
+
+    font-size: 1.5rem;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.get-franchise-btn:hover {
+    transform: scale(1.1);
+}
+
+.order-online-btn {
+    background-color: var(--red);
+    font-size: 1.5rem;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 20px;
+    /* margin-left: 10px; */
+    color: var(--white);
+    align-self: auto;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.order-online-btn:hover {
+    transform: scale(1.1);
+
+}
+
+.icon-btn {
+    color: var(--red);
+    background-color: var(--white);
+    margin: 0 0 0 7px;
+    padding: 6px 7px;
+    border-radius: 20px;
+}
+
+/* navbar section CSS ended */
