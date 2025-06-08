@@ -726,15 +726,17 @@ body {
 .fotter-section {
     background-color: var(--gray);
     margin: 90px 0px 0px;
-    padding: 70px 15px 0px;
+    padding: 70px 15px 40px;
 }
 
 
 
 .fotter-watermark {
-    position: relative;
+   position: absolute;
     left: 30px;
-    z-index: -0;
+   
+    z-index: 1;
+    display: block;
 }
 
 .fotter-data-box {
