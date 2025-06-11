@@ -313,7 +313,7 @@ body {
 }
 
 .franchise-img {
-    width: 500px;
+    width: 550px;
     /* height: 346.91; */
     cursor: pointer;
     transition: transform 0.25s;
@@ -340,15 +340,24 @@ body {
     border-radius: 40px;
 }
 
-#franchise-text {
+.franchise-box-2nd{
+    /* border: 3px solid blue; */
     display: flex;
-    flex-direction: column;
-    /* align-items: flex-s; */
-    /* justify-content: ; */
-    align-items: flex-start;
-
+    width: 1700px;
+    margin: 0 auto;
+    column-gap: 580px;
+    flex-wrap: wrap;
 
 }
+/* #franchise-text {
+    
+
+    
+}
+.area-content{
+    
+} */
+
 
 /* <!-- franchise section ended --> */
 
