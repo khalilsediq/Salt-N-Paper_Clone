@@ -925,16 +925,25 @@ img svg{
 
 .heading-of-salt{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    margin: 32px 0px 70px;
 }
 .about-us-heading{
-    margin: 32px 0px 70px;
+    margin: 0px 0px 20px;
     text-align: center;
     font-weight: 500;
     font-style: normal;
     font-size: 3.2rem;
     line-height: 38px;
     color: var(--white);
+}
+
+.para-custom-text{
+    font-size: 1.6rem;
+    font-family: apercu;
+    margin: 0px 0px 10px;
+    color: var(--light-grey);
 }
