@@ -336,3 +336,51 @@ main{
 #img-hover:hover{
     transform: scale(1.1);
 }
+
+.publication-section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.publication-heading{
+    font-size: 3.2rem;
+    font-family: butler;
+    font-weight: 400;
+    color: var(--white);
+    text-align: center;
+    margin: 32px 0px 24px;
+    line-height: 38px;
+    display: block;
+    font-style: normal;
+}
+.loca{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 36px;
+    color: var(--white);
+    display: inline-block;
+    text-align: center;
+    margin: 12px 0px 0px;
+}
+.location-sec{
+    font-family: apercu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 19px;
+    color: var(--light-grey);
+    letter-spacing: 0.1em;
+    margin: 0px 0px 10px;
+
+}
+ .contact{
+    text-decoration: none;
+    color: var(--light-grey);
+    font-size: 1.4rem;
+    font-family: apercu;
+   letter-spacing: 0.1em;
+}

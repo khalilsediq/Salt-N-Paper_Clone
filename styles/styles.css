@@ -393,8 +393,8 @@ body {
     max-width: 2400px;
     margin: auto;
     margin-top: 100px;
-    border-top-left-radius: 600px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 600px;
     border-bottom-right-radius: 600px;
     border-bottom-left-radius: 30px;
 
