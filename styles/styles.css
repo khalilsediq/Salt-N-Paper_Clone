@@ -134,17 +134,21 @@ body {
     transform: scale(1.1);
 }
 
-.order-online-btn {
+.order-online-btn  {
     background-color: var(--red);
     font-size: 1.5rem;
     padding: 15px 15px;
     border: none;
     border-radius: 20px;
     /* margin-left: 10px; */
-    color: var(--white);
+    color: var(--white); 
     align-self: auto;
     cursor: pointer;
     transition: transform 0.15s;
+}
+.order-online-link{
+    text-decoration: none;
+    color: var(--white); 
 }
 
 .order-online-btn:hover {
@@ -873,10 +877,16 @@ body {
 .data-img {
    width: 660px;
    height: 474.95px;
+   cursor: pointer;
 }
 .data-img img{
     width: 636px;
     border-radius: 10px;
+    transition-duration: 0.5s;
+
+}
+.data-img img:hover{
+    transform: scale(1.1);
 }
 img svg{
     vertical-align: middle;
