@@ -342,7 +342,7 @@ body {
     align-items: center;
     width: 1160px;
     /* height: 860px; */
- 
+    row-gap: 10px  ;
     
 }
 
